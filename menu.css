@@ -1,0 +1,15 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    background-color: black;
+    color: orangered;
+    text-align: center;
+} 
+h4 {
+    font-size: 30px;
+    color: orangered;
+}
+h2 {
+    color: orangered;
+}

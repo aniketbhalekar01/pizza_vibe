@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Vibe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pizza Vibe</h1>
+      <nav>
+        <a href="index.html">Home</a> | <a href="Menu.html">Menu</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="about.html">About Us</a> | <a href="contact.html">Contact</a> | 
+        
+      </nav>
+      <hr />
+      <marquee bgcolor="red">
+        <h3>
+          “Perfect Pair Combo” — 1 Medium Pizza + 1 Garlic Bread + 1 Drink
+          (“Save ₹150” or “Flat 20% off”)
+        </h3>
+      </marquee>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome to Pizza Vibe — Where Every Slice Feels Right!</h2>
+        <img src="Images/Main_Pizza.png" alt="Pizza" height="450px" />
+        <img
+          src="Images/chef_pizza.png"
+          alt="chef with pizza & burger"
+          height="450px"
+        />
+        <img src="Images/pizza_2.png" alt="pizza" height="400px" />
+      </section>
+      <hr />
+      <section>
+        <fieldset>
+          <legend>Online Order</legend>
+          <form action="#">
+            <label>Full Name : </label>
+            <input type="text" placeholder="Enter Your Name" />
+            <br /><br />
+            <label>Phone Number : </label>
+            <input type="number" placeholder="Enter Phone Number" />
+            <br /><br />
+            <label>Delivery Address :</label>
+            <textarea
+              placeholder="Enter Delivery Address"
+              rows="3"
+              cols="50"
+            ></textarea>
+            <br /><br />
+            <label>Select Pizza :</label>
+            <select>
+              <option>Select You Fav Pizza</option>
+              <option>Margherita Magic</option>
+              <option>Cheese Burst Delight</option>
+              <option>Classic Veggie Feast</option>
+              <option>Cheesy Overload</option>
+              <option>Pepperoni Heatwave</option>
+              <option>Smoky BBQ Chicken</option>
+              <option>Spicy Meat Lovers</option>
+              <option>Chicken Tikka Treat</option>
+            </select>
+            <br /><br />
+            <label>Pizza Size :</label>
+            <input type="checkbox" /> Small <input type="checkbox" /> Medium
+            <input type="checkbox" /> Big <br /><br />
+            <label>Quantity :</label>
+            <input type="number" placeholder="Enter Quantity" />
+            <br /><br />
+            <label>Payment Method</label>
+            <br /><br />
+            <input type="radio" name="payment" /> Cash On Delivery
+            <input type="radio" name="payment" /> Online Payment (UPI / Card)
+            <br /><br />
+            <input type="submit" value="Order" />
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <hr>
+    <footer>
+        <h4>Pizza Vibe</h4>
+        <p>7<sup>th</sup> Floor of Bramha Sky Uzuri,Pimpri</p>
+        <small>
+            &copy;2025 All Rights Reserved By Pizza Vibe
+        </small>
+    </footer>
+  </body>
+</html>
